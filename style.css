@@ -37,6 +37,12 @@ p {
     transition: all ease-in-out 0.5s;
 }
 
+.bluebtn:hover {
+    background-color: #38b6ff;
+    border-radius: 0.5em;
+    font-size: 1.9rem;
+}
+
 .article {
     display: flex;
     flex-direction: column;
