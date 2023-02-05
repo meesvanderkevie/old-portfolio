@@ -5,6 +5,48 @@ body {
     padding: 0;
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.btnlist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.bluebtn {
+    cursor: grab;
+    background-color: #005f96;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 1.7rem;
+    transition: all ease-in-out 0.5s;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -19,6 +61,15 @@ h2 {
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-weight: bold;
+    color: #005f96;
+    font-size: 1.3rem;
 }
 
 .icon {
