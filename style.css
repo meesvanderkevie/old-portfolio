@@ -69,6 +69,15 @@ h2 {
     font-size: 1.5rem;
 }
 
+.ondertekst {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
 .subtitle {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -90,6 +99,22 @@ h2 {
 .icon:hover {
     width: 4.5em;
     height: 4.5em;
+}
+
+.iconbar {
+    display: flex;
+    flex-direction: row-column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.icon-item {
+    text-align: center;
+    position: relative;
 }
 
 .flex-container {
