@@ -130,6 +130,8 @@ h2 {
 .flex-item {
     width: 33%;
     height: 10em;
+    background-position: center;
+    background-size: cover;
     text-align: left;
     border: 1px solid black;
     border-radius: 1em;
@@ -140,7 +142,6 @@ h2 {
 .flex-item:hover {
     width: 35%;
     height: 10em;
-
 }
 
 .flex-item-title {
