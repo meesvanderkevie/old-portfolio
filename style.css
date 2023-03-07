@@ -127,41 +127,11 @@ h2 {
     margin-right: 2em;
 }
 
-.flex-item {
-    width: 33%;
-    height: 10em;
-    background-position: center;
-    background-size: cover;
-    text-align: left;
-    border: 1px solid black;
-    border-radius: 1em;
-    transition: all ease-in-out 0.5s;
-    position: relative;
-}
-
-.flex-item:hover {
-    width: 35%;
-    height: 10em;
-}
-
-.flex-item-title {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-align: left;
-    margin-left: 1em;
-    margin-top: 0.5em;
-}
-
-.flex-item-info {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    font-size: 1rem;
-    position: absolute;
-    bottom: 0em;
-    margin-left: 1em;
+.red {
+    color: #ff0000;
+    text-align: center;
+    padding: 0;
+    margin-right: 0;
 }
 /* Header */
 
